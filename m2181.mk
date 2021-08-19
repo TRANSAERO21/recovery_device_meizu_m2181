@@ -28,7 +28,8 @@ PRODUCT_PACKAGES += \
 
 # Boot HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.1-impl-qti.recovery
+    android.hardware.boot@1.1-impl-qti.recovery \
+    bootctrl.$(PRODUCT_PLATFORM).recovery
 
 # Health HAL
 PRODUCT_PACKAGES += \
