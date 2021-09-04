@@ -94,3 +94,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Display
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
