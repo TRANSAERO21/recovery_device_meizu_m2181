@@ -29,3 +29,7 @@ PRODUCT_PACKAGES += \
 # Boot HAL
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti.recovery
+
+# Health HAL
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl-default.recovery
