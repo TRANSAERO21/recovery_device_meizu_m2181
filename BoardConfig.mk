@@ -97,3 +97,13 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Display
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
+
+# Recovery
+TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
+TW_MAX_BRIGHTNESS := 4095
+TW_DEFAULT_BRIGHTNESS := 200
+TW_INCLUDE_NTFS_3G := true
+TW_EXCLUDE_SUPERSU := true
+TW_EXTRA_LANGUAGES := true
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
