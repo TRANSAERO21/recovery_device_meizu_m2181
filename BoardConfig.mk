@@ -110,9 +110,6 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # Display
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
-# Soong
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
-
 # Recovery
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 4095
